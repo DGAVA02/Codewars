@@ -1,0 +1,5 @@
+def find_it(seq):
+    my_dict = {i:seq.count(i) for i in seq}
+    for i in my_dict:
+            if my_dict[i] % 2 != 0:
+                return i
